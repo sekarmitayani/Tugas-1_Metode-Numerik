@@ -141,10 +141,6 @@ if __name__ == "__main__":
     hist_lin_free, _ = seidel_iter(x0, y0, g1_lin, g2_lin, maxit=5, limit=None)
     print_table("Iterasi Seidel – Versi 1 (linier / divergen penuh)", hist_lin_free, "IT")
 
-    # --- Seidel Versi 1: versi aman (dengan limit)
-    hist_lin_safe, _ = seidel_iter(x0, y0, g1_lin, g2_lin, maxit=10, limit=1e6)
-    print_table("Iterasi Seidel – Versi 1 (linier / divergen aman)", hist_lin_safe, "IT")
-
     # --- Seidel Versi 2 (akar kuadrat)
     hist_sqrt, _ = seidel_iter(x0, y0, g1_sqrt, g2_sqrt, maxit=10, limit=1e6)
     print_table("Iterasi Seidel – Versi 2 (akar / konvergen)", hist_sqrt, "IT")
