@@ -1,5 +1,6 @@
 <img width="1580" height="222" alt="image" src="https://github.com/user-attachments/assets/1d92f1d3-8098-40cc-8157-a23088cf6a99" />
 Buatlah demonstrasi pemecahan solusi sistem persamaan linear dari materi M06 sebagai berikut:
+
 - Demonstrasi bisa menggunakan aplikasi spreadsheet atau pemrograman (C, Python, Pascal, atau lainnya)
 - Fungsi iterasi: Iterasi titik tetap (IT), Newton-Raphson (IN), dan Secant (IS)
 - Metode iterasi di IT: Jacobi (J) dan Seidel (S)
